@@ -1,0 +1,17 @@
+.overlay{
+    background: black;
+    opacity: .6;
+    color: #ffffff;
+    padding: 15px 10px;
+    .btn{
+        color: bisque;
+        background: rgb(139, 17, 109)
+    }
+}
+.overlay:hover{
+    opacity: .8;
+    .btn:hover{
+        color: #ffffff;
+        background: rgb(99, 10, 77)
+    }
+}

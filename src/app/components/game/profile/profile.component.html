@@ -1,0 +1,19 @@
+<div class="container">
+  <h1 class="text-center">Profile</h1>
+  <div class="myimg">
+    <img src="../../../../assets/bois.png" width="100px" height="100px">
+  </div>
+  <div class="form-group">
+    <label for="firstname">FirstName : </label>
+    <input type="text" class="form-control" [(ngModel)]="firstname" readonly>
+  </div>
+  <div class="form-group">
+    <label for="lastname">LastName : </label>
+    <input type="text" class="form-control" [(ngModel)]="lastname" readonly>
+  </div>
+  <div class="form-group">
+    <label for="level">Level : </label>
+    <input type="text" class="form-control" [(ngModel)]="level" readonly>
+  </div>
+  <button class="btn" routerLink='/login'>Log out</button>
+</div>

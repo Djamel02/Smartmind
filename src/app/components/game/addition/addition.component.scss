@@ -1,0 +1,25 @@
+.col-3{
+    font-size: 30px;
+    background-color: #a33270;
+    color: #ffffff;
+    border: 0.3px solid;
+    padding: 20px 30px
+}
+.col-3:hover{
+    background-color: #832559;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: 15px;
+    max-width: 100%;
+}
+.container{
+    margin-bottom: 50px
+}
+.operation{
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    color: #fff;
+}

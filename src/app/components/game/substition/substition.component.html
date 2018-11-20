@@ -1,0 +1,22 @@
+<div class="container"> 
+    <button class="col-3 mybtn" routerLink="./"><i class="fa fa-refresh"></i> Replay</button>
+    <h1 class="text-center uppercase">Subtitution</h1>
+    <div class="row">
+      <div class="col-md-3">
+          <app-profile></app-profile>
+      </div>
+      <div class="col-md-6">
+        <div class="col-10">
+          <img class="img-fluid" src="../../../../assets/avoperation.png">
+          <h3 class="text-center operation" *ngIf="!message;else mymessage">{{op[in].stat}} = ? </h3>
+          <ng-template #mymessage >
+              <h3 class="text-center operation" >{{message}}</h3>
+          </ng-template>
+        </div>
+        <div class="game" [@listAnimation]="num.length" >
+          <button *ngFor="let n of num;let l = index" class="col-3 mybtn" (click)="pop(l)">{{n}}</button>
+        </div>
+        <button *ngIf="next" class="col-3 mybtn" routerLink="../subh">Next level</button>
+      </div>
+    </div>
+  </div>
