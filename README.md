@@ -10,7 +10,7 @@ run this command line on your CMD `git clone https://github.com/Djamel02/Smartmi
 
 ## Development server
 
-Run `node server.js` for a dev server. Navigate to `http://localhost:3000/`. 
+Run `node server.js` for a dev server. Navigate to `http://localhost:5000/`. 
 
 ## Code scaffolding
 
