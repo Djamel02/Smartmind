@@ -1,10 +1,16 @@
-# Pfe
+# Smartmind
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6. And Nodejs ,ExpressJS and mongoDB
+
+## Getting Started
+Firstly you have to install Nodejs softwar on your PC from (https://nodejs.org/en/), then Install MongoDB from (https://www.mongodb.com/download-center?jmp=nav) 
+
+Secondly , download git softwar from (https://git-scm.com/)
+run this command line on your CMD `git clone https://github.com/Djamel02/Smartmind` then `cd Smartmind`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `node server.js` for a dev server. Navigate to `http://localhost:3000/`. 
 
 ## Code scaffolding
 
