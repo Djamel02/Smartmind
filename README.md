@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Firstly you have to install Nodejs softwar on your PC from (https://nodejs.org/en/), then Install MongoDB from (https://www.mongodb.com/download-center?jmp=nav) 
 
 Secondly , download git softwar from (https://git-scm.com/)
-run this command line on your CMD `git clone https://github.com/Djamel02/Smartmind` then `cd Smartmind`
+run this command line on your CMD `git clone https://github.com/Djamel02/Smartmind` then `cd Smartmind` then `npm install`
 
 ## Development server
 
